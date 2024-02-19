@@ -1,28 +1,16 @@
-readme_content = \"\"\"# Название проекта
+Web page parser
+====
+This parser gets "Kinopoisk" URL & shows best movies list.
+----
+To get it work, first things first - pip install requests beautifulsoup4 <br>
 
-Описание проекта.
+IMPORTANT <br>
+----
+"Kinopoisk" website is protected against DDOS & BOT parsers(!) <br>
+Hence this script may: <br>
+	• Show empty list <br> 
+	• Indicate "Response [200]" & still show empty list <br>
 
-## Начало работы
-
-Пошаговый процесс установки и запуска.
-
-### Установка
-
-Что нужно установить перед запуском скрипта.
-
-```
-пример установки
-```
-
-### Запуск
-
-Команда для запуска скрипта.
-
-```
-пример запуска
-```
-
-## Лицензия
-
-Укажите информацию о лицензии проекта.
-\"\"\"
+<br>
+### TO RUN IT: <br>
+Download it & with any preferred compiler run "parser.py"
